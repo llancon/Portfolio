@@ -176,7 +176,6 @@ header{
 .bannerPart{
 	/*background:url(../images/1.jpg) no-repeat 0 0;*/
 	height:100%;
-	overflow:hidden;
 }
 
 .bgwidth { width: 100%; }
@@ -192,7 +191,9 @@ header{
 	background:#1b1f2b;
 }
 .bannerPart img{
-	opacity:0.2;
+  width: 100%;
+  /*height: 300px;*/
+	/*opacity:0.5;*/
 	filter:alpha(opacity=20); /* For IE8 and earlier */
 }
 
@@ -443,7 +444,7 @@ header{
 ------------------------------------------------------*/
 
 .aboutme{
-	background:#00bdbd;
+	background:#3FAB64;
 	color:#fff;
 	position:relative;
 }
