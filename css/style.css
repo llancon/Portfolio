@@ -963,8 +963,8 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 }
 .contact p{
 	color:#84868d;
-	/*font-size:13px;*/
-	line-height:18px;
+	font-size:30px;
+
 }
 .contact .heading p{
 	padding-bottom:41px;
@@ -1007,7 +1007,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 }
 .contactDetails p{
 	color:#93959c;
-	font-size:13px;
+	font-size:20px;
 	line-height:19px;
 	padding-bottom:14px;
 }
