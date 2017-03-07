@@ -330,8 +330,10 @@ header{
     width:100%;
 }
 .menu{
+	 z-index:5;
 	 margin-top:0px;
-	 position: static;
+	 position: fixed;
+	 top:0px;
 	 left:0px;
 	 right:0px;
 }
@@ -909,14 +911,12 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 
 
 .abc{
-	position: absolute;
-	width: 782px;
-	height: auto;
-	top: 20%;
-	left: 0;
-	right: 0;
-	z-index: 99999;
-	margin: 0 auto;
+    text-align: center; /*for centering images inside*/
+}
+.abc img {
+    width: 300px; /*set the width or max-width*/
+    height: 300px; /*this makes sure to maintain the aspect ratio*/
+}
 }
 .abc #pbImage{
 	position:static !important;
